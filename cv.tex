@@ -1,0 +1,120 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{customcv}
+\usepackage[english]{babel}
+
+\geometry{left=1.4cm, top=1.4cm, right=1.4cm, bottom=1.4cm, footskip=.5cm}
+
+\name{Fabian}{Ockenfels}
+\address{90210 Beverly Hills, California}
+\mobile{(+00) 123 456 789 00}
+\email{ockenfels.fabian@gmail.com}
+\homepage{https://github.com/sbstnc}
+
+\begin{document}
+  \makecvheader
+
+  \begin{multicols}{2}
+
+  \cvsection{About me}
+
+  As a trained mathematician I would describe myself as an analytical and rational thinker.
+  I prefer sustainable, generic solutions over ad-hoc shims and advocate for flexible, intelligent software products.
+  I'm a reliable, responsible and trustworthy person, capable of inspiring others.
+
+  \cvsection{Experience}
+
+  \begin{cventries}
+
+    \cventry
+      {Big Data Analyst}
+      {Umbrella Corporation}
+      {Aug. 2019 – Present}
+      {
+        \begin{cvitems}
+          \item {Set up business intelligence tooling}.
+          \item {Technical guidance.}
+          \item {Vanquisher of family pizzas.}
+        \end{cvitems}
+      }
+
+    \cventry
+      {Big Data Engineer}
+      {Initech}
+      {Mar. 2017 – Aug. 2019}
+      {
+        \begin{cvitems}
+          \item {Founding member of the big data tribe.}
+          \item {Designed and implemented trending products \newline
+                 algorithm on DataFlow.}
+          \item {Established Airflow and Argo as workflow engines.}
+          \item {Implemented and improved related products \newline
+                 algorithm using Apache Spark.}
+          \item {Creator and maintainer of the product history dataset.}
+        \end{cvitems}
+      }
+
+    \cventry
+      {Software Engineer}
+      {Conglom-O}
+      {Dec. 2016 – Mar. 2017}
+      {
+        \begin{cvitems}
+          \item {Started working at Conglom-O.}
+          \item {Product recommendations.}
+          \item {Kafka, Java, etc.}
+        \end{cvitems}
+      }
+
+  \end{cventries}
+
+  \cvsection{Education}
+
+  \begin{cventries}
+    \cventry
+      {Master of Science}
+      {FH Remagen}
+      {Feb. 2017 – Juli. 2016}
+      {
+        \begin{cvitems}
+          \item {Mathematics in Finance and Life Science}
+        \end{cvitems}
+      }
+
+    \cventry
+      {Bachelor of Science}
+      {FH Remagen}
+      {Mar. 2017 – Aug. 2019}
+      {
+        \begin{cvitems}
+          \item {Wirtschaftsmathematik}
+        \end{cvitems}
+      }
+
+  \end{cventries}
+
+  \vfill\null
+  \columnbreak
+
+  \cvsection{Skills}
+
+  \skillgroup
+    {Languages}
+    {
+      \skill{Scala} \skill{Kotlin} \skill{Java} \skill{C++} \skill{Python}
+      \skill{Javascript} \skill{TypeScript} \skill{SQL}
+    }
+
+  \skillgroup
+    {Technologies}
+    {
+      \skill{BigQuery} \skill{Teradata} \skill{PostgreSQL} \skill{Kafka} \skill{Spark}
+      \skill{DataFlow} \skill{Airflow} \skill{Argo}
+    }
+
+  \contactinfo
+
+  \end{multicols}
+
+\end{document}
